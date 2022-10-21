@@ -1,0 +1,1 @@
+bien_tro_dk_do_sang_den\startup_stm32f103xb.o: startup_stm32f103xb.s

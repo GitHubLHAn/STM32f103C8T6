@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"do_bien_tro\startup_stm32f103xb.o"
+"do_bien_tro\main.o"
+"do_bien_tro\stm32f1xx_it.o"
+"do_bien_tro\stm32f1xx_hal_msp.o"
+"do_bien_tro\stm32f1xx_hal_gpio_ex.o"
+"do_bien_tro\stm32f1xx_hal_adc.o"
+"do_bien_tro\stm32f1xx_hal_adc_ex.o"
+"do_bien_tro\stm32f1xx_hal.o"
+"do_bien_tro\stm32f1xx_hal_rcc.o"
+"do_bien_tro\stm32f1xx_hal_rcc_ex.o"
+"do_bien_tro\stm32f1xx_hal_gpio.o"
+"do_bien_tro\stm32f1xx_hal_dma.o"
+"do_bien_tro\stm32f1xx_hal_cortex.o"
+"do_bien_tro\stm32f1xx_hal_pwr.o"
+"do_bien_tro\stm32f1xx_hal_flash.o"
+"do_bien_tro\stm32f1xx_hal_flash_ex.o"
+"do_bien_tro\stm32f1xx_hal_exti.o"
+"do_bien_tro\stm32f1xx_hal_tim.o"
+"do_bien_tro\stm32f1xx_hal_tim_ex.o"
+"do_bien_tro\system_stm32f1xx.o"
+--strict --scatter "do_bien_tro\do_bien_tro.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "do_bien_tro.map" -o do_bien_tro\do_bien_tro.axf

@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"bien_tro_dk_do_sang_den\startup_stm32f103xb.o"
+"bien_tro_dk_do_sang_den\main.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_it.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_msp.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_gpio_ex.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_adc.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_adc_ex.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_rcc.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_rcc_ex.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_gpio.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_dma.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_cortex.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_pwr.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_flash.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_flash_ex.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_exti.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_tim.o"
+"bien_tro_dk_do_sang_den\stm32f1xx_hal_tim_ex.o"
+"bien_tro_dk_do_sang_den\system_stm32f1xx.o"
+--strict --scatter "bien_tro_dk_do_sang_den\bien_tro_dk_do_sang_den.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "bien_tro_dk_do_sang_den.map" -o bien_tro_dk_do_sang_den\bien_tro_dk_do_sang_den.axf
